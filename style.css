@@ -1,0 +1,33 @@
+body{
+  background-color: #AEB6BF;
+}
+
+.btn{
+  cursor: pointer;
+}
+
+.clicked{
+  color: aqua;
+}
+
+h1{
+  color:aqua;
+}
+
+.form,
+.greetings {
+  display: none;
+}
+
+.showing {
+  display: block;
+}
+
+.bgImage{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
