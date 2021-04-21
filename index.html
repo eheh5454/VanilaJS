@@ -7,21 +7,26 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <!--시간-->
-    <div class="js-clock">
-      <h1 class="js-title">00:00</h1>
-    </div>
-    <!--입력-->
-    <form class="js-form form">
-      <input type="text" placeholder="What is your name?">
-    </form>
-    <h4 class="js-greetings greetings"></h4>
-    <form class="js-toDoForm">
-      <input type="text" placeholder="Write a to do">
-    </form>
+    <section class="center">
+      <!--시간-->
+      <div class="js-clock clock">
+        <h1 class="js-title">00:00</h1>
+      </div>
+      <h4 class="js-greetings greetings name"></h4>
+      <!--입력-->
+      <form class="js-form form name">
+        <input type="text" placeholder="What is your name?">
+      </form>    
+      <form class="js-toDoForm">
+        <input type="text" placeholder="Write a to do">
+      </form>
+    </section>
+    
+    
+
     <ul class="js-toDoList">
     </ul>
-    <span class="js-weather"></span>
+    <span class="js-weather weather"></span>
     <script src="todo.js"></script>
     <script src="clock.js"></script>
     <script src="greeting.js"></script>
